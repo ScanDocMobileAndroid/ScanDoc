@@ -4,7 +4,7 @@ Integrate ScanDocSDK in just couple of steps:
 
 1. Initialize using **user key** and accepting terms and conditions inside onCreate method.
 ```kotlin
-import com.scandocai.scandocsdk.ScanDocSDK
+import ai.scandoc.scandocsdk.ScanDocSDK
 ScanDocSDK.initialize(
             userKey = userKey,
             acceptTermsAndConditions = true,
@@ -13,8 +13,8 @@ ScanDocSDK.initialize(
 ```
 2. Add **ScanDocCameraFragment** to capture frames and forward them to SDK for processing.
 ```kotlin
-import com.scandocai.scandocsdk.ScanDocCameraFragment
-import com.scandocai.scandocsdk.ScanDocSDK
+import ai.scandoc.scandocsdk.ScanDocCameraFragment
+import ai.scandoc.scandocsdk.ScanDocSDK
 val scanDocCameraFragment = ScanDocCameraFragment.newInstance()
 fragmentManager
 	.beginTransaction()
@@ -24,9 +24,9 @@ fragmentManager
 
 3. Retrieve SDK output events by collecting **outputEvent**.
 ```kotlin
-import com.scandocai.scandocsdk.ScanDocCameraFragment
-import com.scandocai.scandocsdk.ScanDocEvent
-import com.scandocai.scandocsdk.ScanDocSDK
+import ai.scandoc.scandocsdk.ScanDocCameraFragment
+import ai.scandoc.scandocsdk.ScanDocEvent
+import ai.scandoc.scandocsdk.ScanDocSDK
 lifecycleScope.launch {
             ScanDocSDK
                 .outputEvent
