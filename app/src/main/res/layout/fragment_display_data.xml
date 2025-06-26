@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fullNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name Surname"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/documentNumberTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Document Number: 123456"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/birthDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birth Date: 01.01.1990"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/expiryDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expiry Date: 01.01.2030"
+            android:paddingBottom="12dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

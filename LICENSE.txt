@@ -1,0 +1,35 @@
+Proprietary License Agreement for ScanDoc SDK
+Copyright (c) ScanDocAI d.o.o.
+
+This software development kit (SDK) is the property of ScanDocAI d.o.o. ("ScanDocAI") and is licensed, not sold.
+
+By downloading, integrating, or otherwise using the SDK, you agree to be bound by the terms of this license agreement. If you do not agree, you must not use the SDK.
+
+1. License Grant
+ScanDocAI grants you a limited, non-transferable, non-exclusive, revocable license to use the SDK solely for internal development and evaluation purposes, and only as part of applications that interface with ScanDocAI’s services.
+
+2. Restrictions
+You may not:
+- Modify, reverse engineer, decompile, or disassemble any part of the SDK.
+- Use the SDK to develop or distribute software that competes with ScanDocAI products.
+- Redistribute, sublicense, rent, lease, or transfer the SDK or any portion thereof.
+- Remove or alter any copyright, trademark, or proprietary notices.
+
+3. Ownership
+The SDK is licensed, not sold. All rights, title, and interest in and to the SDK, including all associated intellectual property rights, remain with ScanDocAI.
+
+4. Disclaimer of Warranty
+The SDK is provided "as is" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+5. Limitation of Liability
+In no event shall ScanDocAI be liable for any damages (including, without limitation, lost profits, business interruption, or lost data) arising out of the use or inability to use the SDK.
+
+6. Termination
+This license is effective until terminated. It will terminate automatically without notice if you fail to comply with any provision of this agreement. Upon termination, you must destroy all copies of the SDK.
+
+7. Governing Law
+This agreement is governed by and construed in accordance with the laws of the Republic of Croatia, without regard to its conflict of law principles.
+
+For questions or license requests, contact:
+ScanDocAI d.o.o.
+info@scandoc.ai

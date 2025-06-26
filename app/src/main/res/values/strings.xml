@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SDK</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="user_text">Document not detected</string>
+    <string name="extraction_summary">Extraction Summary</string>
+    <string name="device_info">Device Info</string>
+    <string name="extracted_fields">Extracted Fields</string>
+    <string name="images">Images</string>
+</resources>
